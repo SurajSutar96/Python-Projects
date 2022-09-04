@@ -12,7 +12,7 @@ class latur():
         b=random.randint(1,100)
         with open("science_student.txt",'w')as f:
             f.write(f'\nRoll no:-{b}\nName:-{self.a}\nAge:{self.b}\nAddress:-{self.c}\nMobile_no:-{self.d}\nAdmission on:-{g}\n\n')
-        print("Yuor addmission is confirm in science stram on:-",g)
+        print("Yuor addmission is confirm in science stream on:-",g)
     def commerce(self):
         a=datetime.datetime.today()
         g=a.strftime('%d-%B-%Y/%I:%M%p')
